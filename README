@@ -1,0 +1,14 @@
+Sports Analysis C++ README
+Nicholas Houghton
+
+This program will keep track of a sports teams stats 
+It takes in the existing data, then reads a file for updates and updates it, then prints it
+
+To compile:
+make
+
+To run:
+./teamData oldData.txt newData.txt outName.txt numStats numPlayers
+
+Sources:
+I worked alone on this project.
