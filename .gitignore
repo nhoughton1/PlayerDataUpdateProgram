@@ -1,0 +1,3 @@
+*.o
+teamData
+.DS_Store
