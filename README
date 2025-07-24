@@ -1,11 +1,20 @@
 Sports Analysis C++ README
 Nicholas Houghton
 
-This program will keep track of a sports teams stats 
-It takes in the existing data, then reads a file for updates and updates it, then prints it
+This program reads a file of player statistics, applies updates from a second file, and outputs the updated data. Each player’s stats are adjusted based on the input.
+The program has configurable stat and player counts through command-line arguments.
 
 To compile:
 make
 
 To run:
 ./teamData oldData.txt newData.txt outName.txt numStats numPlayers
+
+Example:
+./teamData simple_data.txt simple_update.txt simple_out.txt 4 2
+Example Output:
+ID	FirstName	LastName	points	catches	throws	games
+0	  PlayerA		PlayerA		2		    6		    6		    2
+1	  PlayerB		PlayerB		8		    17		  5		    4
+
+
