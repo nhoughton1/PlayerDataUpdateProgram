@@ -9,6 +9,3 @@ make
 
 To run:
 ./teamData oldData.txt newData.txt outName.txt numStats numPlayers
-
-Sources:
-I worked alone on this project.
